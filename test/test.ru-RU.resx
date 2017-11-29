@@ -287,4 +287,7 @@ User: &lt;%UserName%&gt;&lt;/p&gt;
   <data name="Username" xml:space="preserve">
     <value>UserName</value>
   </data>
+  <data name="new_string">
+    <value>11111111111&lt; &lt; &amp;</value>
+  </data>
 </root>
