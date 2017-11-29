@@ -1,0 +1,9 @@
+files: [
+ {
+  "source" : "/test/test.resx",
+  "translation" : "/test/%file_name%.%locale%.resx",
+  "dest" : "/test/test.resx",
+  "type" : "csv",
+  "scheme" : "identifier,source_or_translation"
+ }
+]
