@@ -1,5 +1,5 @@
 files:
-  - source: /test/test.en-US.resx
+  - source: /test/test.resx
     translation: /test/%file_name%.%locale%.resx
     dest: /test/test.csv
     type: csv
