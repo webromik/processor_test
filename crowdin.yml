@@ -2,7 +2,7 @@ files: [
  {
   "source" : "/test/test.resx",
   "translation" : "/test/%file_name%.%locale%.resx",
-  "dest" : "/test/test.resx",
+  "dest" : "/test/test.csv",
   "type" : "csv",
   "scheme" : "identifier,source_or_translation"
  }
