@@ -1,16 +1,5 @@
 files:
-  "source": "/test/test.resx"
-  "translation": "/test/%file_name%.%locale%.resx"
-  "translation_replace": [
+  - source: "/test/test.resx"
+    translation: "/test/%file_name%.%locale%.resx"
+    translation_replace: 
       ".en-US" : "" #leaving value empty here, you will get rid of .en-US part for exported files
-  ]
-#  - source: /test/test.resx
-#    translation: /test/%file_name%.%locale%.resx
-#    dest: /test/test.csv
-#    type: csv
-#    scheme: 'identifier,source_or_translation'
-#    "translation_replace": {
-#      ".en-US" : "" #leaving value empty here, you will get rid of .en-US part for exported files
-#    }
-#  - source: /test/*.properties
-#    translation: /test/%two_letters_code%_1_%original_file_name%
