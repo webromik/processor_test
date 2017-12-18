@@ -3,6 +3,6 @@ files:
     translation: "/test/%file_name%.%locale%.resx"
     languages_mapping:
       locale:
-        uk: Ukraina
+        ru: Russian
     translation_replace: 
       ".en-US" : ""
