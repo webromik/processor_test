@@ -1,5 +1,8 @@
 files:
   - source: "/test/test.resx"
     translation: "/test/%file_name%.%locale%.resx"
+    languages_mapping:
+      locale:
+        uk: Ukraina
     translation_replace: 
       ".en-US" : ""
