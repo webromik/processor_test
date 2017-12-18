@@ -1,4 +1,12 @@
 files:
+  - source: /res/values/*.xml
+    ignore:
+      - /*.md
+      - /*.txt
+    translation: /Rasp/%locale%/%original_file_name%
+    languages_mapping:
+      locale:
+        uk: Ukraina
   - source: "/test/test.resx"
     translation: "/test/%file_name%.%locale%.resx"
     translation_replace: 
