@@ -1,8 +1,8 @@
 files:
-  - source: "/test/test.resx"
-    translation: "/test/%file_name%.%locale%.resx"
+  - source: /test/test.resx
+    translation: /test/%file_name%.%locale%.resx
     languages_mapping:
       locale:
         ru: Russian
-    translation_replace: 
-      ".en-US" : ""
+    translation_replace:
+      .en-US: 
