@@ -2,4 +2,4 @@ files:
   - source: "/test/test.resx"
     translation: "/test/%file_name%.%locale%.resx"
     translation_replace: 
-      ".en-US" : "" #leaving value empty here, you will get rid of .en-US part for exported files
+      ".en-US" : ""
