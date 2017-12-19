@@ -5,6 +5,4 @@ files:
       locale:
         ru: Russian
         ru2: Russian2
-    translation_replace:
-      .en-US: 
-      .en-USTT: test
+    translation_replace: 
