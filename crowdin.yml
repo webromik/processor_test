@@ -9,5 +9,7 @@ files:
         ru2: Russian2
     translation_replace: 
       ".en-US" : ""
+      "" : "1"
       ".en-USTT" : "test"
+      
     
