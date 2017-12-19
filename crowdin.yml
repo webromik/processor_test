@@ -10,5 +10,14 @@ files:
     translation_replace:
       .en-US: 
       .en-USTT: test
-  - source: /test/test.html
+  - source: /test/t.html
     translation: /test/%file_name%.%locale%.html
+    languages_mapping:
+      locale:
+        ru: Russian
+        ru2: Russian2
+    dest: /test/t.webxml
+    type: webxml
+    translation_replace:
+      .en-US: 
+      .en-USTT: test
