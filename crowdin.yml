@@ -6,6 +6,7 @@ files:
     languages_mapping:
       locale:
         ru: Russian
+        ru2: Russian2
     translation_replace: 
       ".en-US" : ""
       ".en-USTT" : "test"
