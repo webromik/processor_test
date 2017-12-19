@@ -1,5 +1,5 @@
 files:
-  - source: test.html
+  - source: /test.html
     translation: /%file_name%.%locale%.html
     languages_mapping:
       locale:
