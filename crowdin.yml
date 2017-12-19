@@ -1,6 +1,6 @@
 files:
   - source: /test.html
-    translation: /test/%file_name%.%locale%.html
+    translation: /%file_name%.%locale%.html
     languages_mapping:
       locale:
         ru: Russian
