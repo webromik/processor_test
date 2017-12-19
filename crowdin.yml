@@ -1,12 +1,10 @@
 files:
-  - source: /test.xml
-    translation: /%file_name%.%locale%.xml
+  - source: /test.html
+    translation: /%file_name%.%locale%.html
     languages_mapping:
       locale:
         ru: Russian
         ru2: Russian2
-    dest: /test.webxml
-    type: webxml
     translation_replace:
       .en-US: 
       .en-USTT: test
