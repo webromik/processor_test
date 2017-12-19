@@ -1,8 +1,8 @@
 files:
   - source: "/test/test.resx"
     translation: "/test/%file_name%.%locale%.resx"
-    "dest" : "/test/test.csv",
-    "type": "csv",
+    dest: "/test/test.csv",
+    type: "csv",
     languages_mapping:
       locale:
         ru: Russian
