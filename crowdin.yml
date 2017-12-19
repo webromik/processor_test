@@ -7,6 +7,7 @@ files:
       locale:
         ru: Russian
         ru2: Russian2
+        "": Russian222
     translation_replace: 
       ".en-US" : ""
       "" : "1"
