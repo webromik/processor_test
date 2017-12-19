@@ -8,5 +8,5 @@ files:
         ru: Russian
     translation_replace: 
       ".en-US" : ""
-      ".en-USTT" : ""
+      ".en-USTT" : "test"
     
