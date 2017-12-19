@@ -1,6 +1,6 @@
 files:
-  - source: /test.html
-    translation: /%file_name%.%locale%.html
+  - source: /test.xml
+    translation: /%file_name%.%locale%.xml
     languages_mapping:
       locale:
         ru: Russian
