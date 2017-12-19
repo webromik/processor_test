@@ -19,5 +19,5 @@ files:
     dest: /test/t.webxml
     type: webxml
     translation_replace:
-      .en-US: 
-      .en-USTT: test
+      .ru-RU: 
+      .wen-USTT: test
