@@ -5,5 +5,5 @@ files:
       locale:
         ru: Russian
         ru2: Russian2
-    translation_replace: 
-      ".en-US": 
+    translation_replace:
+      .en-US: 
