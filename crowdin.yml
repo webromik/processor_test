@@ -7,3 +7,4 @@ files:
         ru2: Russian2
     translation_replace:
       .en-US: 
+      .ru-RU: test
