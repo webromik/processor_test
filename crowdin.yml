@@ -22,5 +22,5 @@ files:
     dest : /test.csv
     type: csv
     scheme: "identifier,source_or_translation"
-  translation_replace:
-    .en-GB:
+translation_replace:
+  .en-GB:
