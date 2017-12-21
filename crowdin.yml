@@ -1,10 +1,21 @@
+#
+# Choose file structure in crowdin
+# e.g. true or false
+#
+"preserve_hierarchy": true
+#
+# Files configuration
+#
 files:
-  - source: /test.html
-    translation: /%file_name%.%locale%.html
-    languages_mapping:
-      locale:
-        ru: Russian
-        ru2: Russian2
+  - source: /src/DDTech.Localization/Account.resx
+    translation: /src/DDTech.Localization/%file_name%.%locale%.resx
+    dest : /src/DDTech.Localization/Account.csv,
+    type: csv,
+    scheme: "identifier,source_or_translation"
+  - source: /src/DDTech.Localization/Admin.resx
+    translation: /src/DDTech.Localization/%file_name%.%locale%.resx
+    dest : /src/DDTech.Localization/Admin.csv,
+    type: csv,
+    scheme: "identifier,source_or_translation"
     translation_replace:
-      .en-US: 
-      .ru-RU: test
+      .en-GB:
