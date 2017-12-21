@@ -27,4 +27,4 @@ files:
     type: csv
     scheme: "identifier,source_or_translation"
     translation_replace:
-      .en-GB:
+      .en-US:
