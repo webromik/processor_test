@@ -17,5 +17,10 @@ files:
     dest : /src/DDTech.Localization/Admin.csv,
     type: csv,
     scheme: "identifier,source_or_translation"
+  - source: /test/test.resx
+    translation: /test/%file_name%.%locale%.resx
+    dest : /test/test.csv,
+    type: csv,
+    scheme: "identifier,source_or_translation"
     translation_replace:
       .en-GB:
