@@ -12,15 +12,19 @@ files:
     dest : /src/DDTech.Localization/Account.csv
     type: csv
     scheme: "identifier,source_or_translation"
+    translation_replace:
+      .en-GB:
   - source: /src/DDTech.Localization/Admin.resx
     translation: /src/DDTech.Localization/%file_name%.%locale%.resx
     dest : /src/DDTech.Localization/Admin.csv
     type: csv
     scheme: "identifier,source_or_translation"
+    translation_replace:
+      .en-GB:
   - source: /test/test.resx
     translation: /test/%file_name%.%locale%.resx
     dest : /test.csv
     type: csv
     scheme: "identifier,source_or_translation"
-translation_replace:
-  .en-GB:
+    translation_replace:
+      .en-GB:
