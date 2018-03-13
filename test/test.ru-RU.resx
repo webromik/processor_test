@@ -288,6 +288,6 @@ User: &lt;%UserName%&gt;&lt;/p&gt;
     <value>UserName</value>
   </data>
   <data name="new_string">
-    <value>fdfffffffffffffffffffffffffffffffffffffffffffffffffffff</value>
+    <value>new_string</value>
   </data>
 </root>
