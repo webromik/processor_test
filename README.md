@@ -2,11 +2,13 @@
 
 1
 > [!NOTE]
+>
 > This single package supports both GPU and CPU.
 
 
 2
   > [!NOTE]
+  >
   > This single package supports both GPU and CPU.
 
 3
