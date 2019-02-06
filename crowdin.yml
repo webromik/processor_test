@@ -1,30 +1,22 @@
-#
-# Choose file structure in crowdin
-# e.g. true or false
-#
-"preserve_hierarchy": true
-#
-# Files configuration
-#
+preserve_hierarchy: true
 files:
   - source: /src/DDTech.Localization/Account.resx
     translation: /src/DDTech.Localization/%file_name%.%locale%.resx
-    dest : /src/DDTech.Localization/Account.csv
+    dest: /src/DDTech.Localization/Account.csv
     type: csv
-    scheme: "identifier,source_or_translation"
-    translation_replace:
-      .en-GB:
+    scheme: 'identifier,source_or_translation'
+    translation_replace: &ref_.en-GB
+      .en-GB: 
   - source: /src/DDTech.Localization/Admin.resx
     translation: /src/DDTech.Localization/%file_name%.%locale%.resx
-    dest : /src/DDTech.Localization/Admin.csv
+    dest: /src/DDTech.Localization/Admin.csv
     type: csv
-    scheme: "identifier,source_or_translation"
-    translation_replace:
-      .en-GB:
+    scheme: 'identifier,source_or_translation'
+    translation_replace: *ref_.en-GB
   - source: /test/test.resx
     translation: /test/%file_name%.%locale%.resx
-    dest : /test.csv
+    dest: /test.csv
     type: csv
-    scheme: "identifier,source_or_translation"
-    translation_replace:
-      .en-US:
+    scheme: 'identifier,source_or_translation'
+    translation_replace: &ref_.en-US
+      .en-US: 
